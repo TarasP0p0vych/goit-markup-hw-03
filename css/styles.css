@@ -237,7 +237,7 @@ button {
 }
 
 /* SERVICE */
-.service-list {
+.service {
   padding-bottom: 120px;
 }
 .title {
@@ -266,12 +266,12 @@ button {
 }
 .teamcard-container {
   padding: 32px 16px;
-  border-radius: 0px 4px;
 }
 .team-item {
   background-color: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   margin-bottom: 8px;
@@ -299,6 +299,7 @@ button {
   font-family: var(--secondary-font);
 }
 .footer-logo-link {
+  display: inline-block;
   margin-bottom: 16px;
 
   font-weight: 800;
